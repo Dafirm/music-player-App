@@ -2,7 +2,7 @@ import React from 'react'
 import { searchIconGrey } from '../../../assets';
 import './style.css';
 
-const SearchInput = props => {
+const SearchInput = (props) => {
   return (
     <div className='search-input-container flex'>
         <img src = {searchIconGrey}/>

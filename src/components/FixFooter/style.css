@@ -8,7 +8,7 @@
     background: url(./../../assets/footer-bg-1.jpg);
     background-size: cover;
     background-position: center;
-    border-top-right-radius: 10px;
+    border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     /*height: 50px;*/
     transition: height .2s ease-out;
@@ -45,7 +45,14 @@
     height: 40px;
     background: gray;
     border-radius: 50%;
+    overflow: hidden;
 
+}
+
+.mini-player .artist-cover-img img{
+    width: 40px;
+    height: 40px;
+    
 }
 .mini-player-control button{
     border: none;
@@ -56,7 +63,7 @@
 .mini-player button img{
     width: 15px;
 }
-.mini-player button: :first-child{
+.mini-player button:first-child{
     margin-right: 20px;
 }
 .mini-player-info{
@@ -70,11 +77,11 @@
     width: 300px;
     height: 300px;
     position: relative;
-    border: 1px solid #fff;
     margin: 20px auto;
+    overflow: hidden;
 }
 
-.audio-player-lg .audio-cover-lg-img{
+.audio-player-lg .audio-cover-lg-img img{
     width: 280px;
     height: 280px;
     border-radius: 50%;
@@ -83,7 +90,8 @@
     top: 50%;
     transform: translate(-50%, -50%);
     background: grey;
-
+    overflow: hidden;
+    
 }
 
 .audio-player-progress{

@@ -5,14 +5,14 @@ import { backIcon } from '../../assets';
 
 const AudioList = ({onBackButtonPress}) => {
   return (
-    <div className='audio-ls m-20'>
+    <div className='audio-ls p-20'>
         <div onClick = {onBackButtonPress}className='audio-ls-header'>
             <img src={backIcon}/>
         </div>
 
-        <ul>
-            <li className='audio-ls-container mtb-10'>
-                <div className='audio-ls-item flex align-center ptb-10'>
+        <ul className='mtb-10'>
+            <li className='audio-ls-container'>
+                <div className='audio-ls-item flex align-center ptb-5'>
                     <div className='audio-img'>
                         <img />
                     </div>

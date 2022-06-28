@@ -1,10 +1,11 @@
 import { searchIcon } from "../../assets";
 import { Dafirmlogo } from "../../assets";
-const Header = props => {
+import './style.css';
+const Header = (props) => {
     return(
         <header className = "header flex justify-sb">
             <div className= "logo">
-                <img className="Dafirm" src= {Dafirmlogo} alt= "logo"/>
+                <img className="Dafirm" src= {Dafirmlogo} alt= "W"/>
             </div>
             <div>
                 <img src={searchIcon} alt = "Search"/>

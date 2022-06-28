@@ -21,7 +21,7 @@ function App() {
       <SearchInput />
       <Tabs />
       {list && <AudioList onBackButtonPress = {onBackButtonPress }/>}
-      <button onClick={() => setList(true)}> btn </button>
+      {/*<button onClick={() => setList(true)}> btn </button>*/}
 
       <FixFooter/>
     </div>
