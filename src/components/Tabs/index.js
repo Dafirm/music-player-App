@@ -24,7 +24,6 @@ const Tabs = props => {
                     <div className='content-item'>
                         <img />
                     </div>
-
                 </div>
             </div>
             <div className = "tab-content" id = "freelicense">

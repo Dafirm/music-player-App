@@ -1,9 +1,9 @@
+import { useState } from 'react';
 import './App.css';
 import Header from './components/Header';
 import SearchInput from './components/Header/SearchInput';
 import Tabs from './components/Tabs';
 import AudioList from './components/AudioList';
-import { useState } from 'react';
 import FixFooter from './components/FixFooter';
 
 function App() {
