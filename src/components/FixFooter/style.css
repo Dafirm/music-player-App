@@ -10,9 +10,26 @@
     background-position: center;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
-    /*height: 50px;*/
+    /* height: 50px; */
     transition: height .2s ease-out;
 }
+
+.fix-footer._h60{
+    height: 60px;
+}
+
+.fix-footer._h115{
+    height: 115px;
+}
+
+.fix-footer._h83{
+    height: 83px;
+}
+
+.fix-footer._h138{
+    height: 138px;
+}
+
 .fix-footer.active{
     height: calc(100% - 40px);
 }
@@ -23,6 +40,8 @@
     border-radius: 10px;
     margin: 0 auto;
 }
+
+
 .navigation-menu{
     width: 160px;
     background: #000;
@@ -30,45 +49,48 @@
     margin: 5px auto;
     text-align: center;
     padding: 5px 0;
-
+    
 }
+
 .navigation-menu a{
     font-size: 12px;
+    margin: 0 auto;
 }
 .navigation-menu img{
-    width: 15px;
-
+    width: 15px
 }
 
 .mini-player .artist-cover-img{
     width: 40px;
     height: 40px;
-    background: gray;
-    border-radius: 50%;
+    background: grey;
+    border-radius: 50%; 
     overflow: hidden;
-
 }
 
 .mini-player .artist-cover-img img{
     width: 40px;
     height: 40px;
-    
 }
+
 .mini-player-control button{
     border: none;
     outline: none;
     background: transparent;
-
 }
+
 .mini-player button img{
     width: 15px;
 }
+
 .mini-player button:first-child{
     margin-right: 20px;
 }
+
 .mini-player-info{
     font-size: 12px;
 }
+
 .mini-player-info p:last-child{
     color: grey;
 }
@@ -90,14 +112,11 @@
     top: 50%;
     transform: translate(-50%, -50%);
     background: grey;
-    overflow: hidden;
-    
 }
 
 .audio-player-progress{
     width: 100%;
     margin: 20px 0;
-
 }
 
 .audio-player-progress input[type=range]{
@@ -112,17 +131,19 @@
     width: 180px;
     margin: 0 auto;
 }
+
 .audio-controls button{
     border: none;
     outline: none;
     background: transparent;
 }
+
 .audio-controls > button:first-child{
     transform: scaleX(-1);
 }
 
 .audio-controls .play-pause-btn{
-    width:  60px;
+    width: 60px;
     height: 60px;
     border-radius: 50%;
     display: flex;
@@ -130,9 +151,6 @@
     align-items: center;
     background: #fff;
 }
-
 .audio-controls .play-pause-btn img{
     width: 15px;
-    margin-left: 5px;
-    margin-top: 5px;
 }

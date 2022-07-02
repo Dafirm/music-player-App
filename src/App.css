@@ -16,6 +16,13 @@ body{
 .justify-sb{
   justify-content: space-between;
 }
+.justify-evenly{
+  justify-content: space-evenly;
+}
+
+.justify-center{
+  justify-content: center;
+}
 .align-center{
   align-items: center;
 }
@@ -80,6 +87,9 @@ body{
 
 .app-quote{
   font-size: 25px;
+  position: absolute;
+  top: 100px;
+  
 }
 li{
   list-style: none;
@@ -94,4 +104,17 @@ li{
   background: #000;
   opacity: 0.5;
   z-index: -1;
+}
+.z-0{
+  z-index: 0;
+}
+
+.z-1{
+  z-index: 1;
+}
+.z-2{
+  z-index: 2;
+}
+.rel{
+  position: relative;
 }

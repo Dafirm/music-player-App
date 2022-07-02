@@ -13,13 +13,18 @@
     border-bottom: 1px solid rgb(241, 113, 8);
 }
 
-.tab-contents .tab-content{
+.tab-contents .tab-content{ 
     display: none;
     margin-bottom: 100px;
 }
 
-.tab-contents .tab-content:target{
+/*.tab-contents .tab-content:target{
     display: block;
+}*/
+
+.tab-contents .tab-content.active{
+    display: block;
+
 }
 
 .tab-contents .tab-content .content-item{
@@ -34,7 +39,7 @@
 .content-wrapper{
     flex-wrap: wrap;
 }
-/*.content-wrapper .content-item img{
+.content-wrapper .content-item img{
     width: 120px;
     height: 120px;
 }
@@ -44,4 +49,4 @@
     position: absolute;
     top:0;
     font-size: 15px;
-}*/
+}

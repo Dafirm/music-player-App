@@ -5,7 +5,7 @@ const Header = (props) => {
     return(
         <header className = "header flex justify-sb">
             <div className= "logo">
-                <img className="Dafirm" src= {Dafirmlogo} alt= "W"/>
+                <img src= {Dafirmlogo} alt= "W"/>
             </div>
             <div>
                 <img src={searchIcon} alt = "Search"/>
