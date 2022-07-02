@@ -89,6 +89,7 @@ body{
   font-size: 25px;
   position: absolute;
   top: 100px;
+  margin-left: -5px;
   
 }
 li{

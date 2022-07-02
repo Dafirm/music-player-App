@@ -41,15 +41,15 @@ function App() {
   }
 
   useEffect(() => {
-    fetch(`${baseUrl}/song`)
-      .then((res) => res.json())
-      .then((jsonResp) => {
-        console.log({ jsonResp });
-        setAppData(jsonResp.appData);
-      })
-      .catch((error) => {
-        console.log({ error });
-      });
+    fetch(` ${baseUrl}/song`)
+    .then(res => res.json())
+    .then(jsonResp=> {
+      console.log({ jsonResp });
+      setAppData(jsonResp.appData);
+    })
+    .catch(error => {
+      console.log({error});
+    })
   }, []);
 
   return (
