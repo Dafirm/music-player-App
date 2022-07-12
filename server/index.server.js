@@ -3,7 +3,12 @@ const fs = require("fs");
 const cors = require("cors");
 const { appData } = require("./mock");
 const app = express();
-const PORT = 9000;
+const PORT = process.env.PORT || 9000;
+
+if (process.env.NODE_ENV === "production"){
+    app.use(express.static('build'));
+
+}
 
 const _AUDIO_TYPE_ = {
     ROCK: "rock",
